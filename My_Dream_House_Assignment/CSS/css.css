@@ -1,0 +1,54 @@
+body {
+    background: gray;
+    text-align: center;
+}
+
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+/* container holding the image and text */
+.container {
+    position: relative;
+    text-align: center;
+    color: yellow; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: blue;
+}
+
+table, th, td {
+    border: 3px solid;
+}
+
+th {
+    background-color: white;
+}
+
+th, td {
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+}
